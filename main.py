@@ -2,6 +2,11 @@ import pytest
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
+        '''
+        Выяисляет является ли числа полиндромом
+        :param x:
+        :return:
+        '''
         c = 1
         c += 1
         print(c)
