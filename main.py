@@ -8,7 +8,9 @@ class Solution:
         :return:
         '''
         return str(x) == str(x)[::1]
-
+#какой-то коментарий
+# еще один комментарий
+# последний комментарий
 @pytest.mark.parametrize("input_value, expected", [(123, False),
                                                    (111, True),
                                                    (222, True)])
