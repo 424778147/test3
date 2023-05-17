@@ -17,4 +17,3 @@ class Solution:
 def test_palindrome(input_value, expected):
     sol = Solution()
     assert sol.isPalindrome(input_value) is expected
-
